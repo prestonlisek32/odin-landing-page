@@ -1,11 +1,14 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Inter", sans-serif;
 }
 
 .section-1 {
   background-color: #1f2937;
-  padding: 0px 100px 100px 100px;
+  padding: 0px 64px 64px 64px;
+  max-width: 1100px;
+  margin: auto;
 }
 
 .header {
@@ -31,7 +34,7 @@ ul {
 ul a {
   font-size: 18px;
   text-decoration: none;
-  color: #E5E7EB;
+  color: #e5e7eb;
 }
 
 .hero {
@@ -44,15 +47,20 @@ ul a {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 800;
+  margin: 0px;
 }
 
 .hero p {
   font-size: 18px;
   color: #e5e7eb;
+  margin: 0px;
 }
 
-.button{
-    background-color: #3882F6;
-    border-radius: 10px;
-    border:0;
+.button {
+  background-color: #3882f6;
+  border-radius: 10px;
+  border: 0;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 12px 24px;
 }
