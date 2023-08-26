@@ -62,3 +62,34 @@ ul a {
   color: #e5e7eb;
   padding: 12px 24px;
 }
+
+.wrapper{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.card-container{
+  display:flex;
+  gap: 24px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 160px;
+}
+
+.card div{
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+  border: 4px solid #3882f6;
+}
+
+.card p{
+  text-align: center;
+}
