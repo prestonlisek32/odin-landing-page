@@ -93,3 +93,17 @@ ul a {
 .card p{
   text-align: center;
 }
+
+h2{
+  font-size:36px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
